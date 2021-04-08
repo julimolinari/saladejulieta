@@ -1,0 +1,25 @@
+@font-face { font-family: ARCADE_N; src: url('../../../assets/fonts/ARCADE_N.TTF'); } 
+
+body{
+    /* background-image: "../../../assets/images/fondo.jpg"; */
+    background: url("../../../assets/images/fondo.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 21px;
+    font-family: ARCADE_N;
+    
+}
+
+.btn{
+
+    justify-content: center;
+    
+}
