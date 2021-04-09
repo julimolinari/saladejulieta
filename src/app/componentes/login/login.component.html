@@ -13,6 +13,29 @@
     <div class="card mx-auto" style="width: 18rem; margin-top: 110px;" id="tarjeta">
         <main class="form-signin">
             <form>
+                <img class="mb-4" src="../../../assets/images/login.png" alt="" width="150" height="150">
+                <h1 class="h3 mb-3 fw-normal">Ingresa!</h1>
+            
+                <div class="form-floating">
+                  <input type="email" class="form-control" id="floatingInput" name="floatingInput" placeholder="name@example.com" [(ngModel)]= "inputEmail">
+                  <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                  <input type="password" class="form-control" id="floatingPassword" name="floatingPassword" placeholder="Password" [(ngModel)]= "inputPass" >
+                  <label for="floatingPassword">Contraseña</label>
+                </div>
+            
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Recordarme
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="button" (click)='iniciar()'>Iniciar Sesion</button>
+                <button class="w-45 btn btn-lg btn-secondary" type="button" (click)='volverhome()'>Volver</button>
+                <button class="w-45 btn btn-lg btn-warning" type="button" (click)='registro()'>Registrate!</button>
+                <p class="mt-5 mb-3 text-muted">© 2017–2021</p>
+              </form>
+            <!-- <form>
                 <img class="mb-4" src="../../../assets/images/login.png" alt="" width="95" height="95" style="margin-top: 10px;">
                 <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
                 <label for="inputEmail" class="visually-hidden">Email address</label>
@@ -21,10 +44,10 @@
                 <label for="inputPassword" class="visually-hidden">Password</label>
                 <input type="password" id="inputPassword" name="inputPassword" class="form-control" placeholder="Password" required="" [(ngModel)]= "inputPass" >
                 
-                <button class="btn btn-lg btn-primary" type="button" (click)='iniciar()'>Iniciar Sesion</button>
-                <button class="btn btn-lg btn-secondary" type="button" (click)='volverhome()'>Volver</button>
-                <button class="btn btn-lg btn-warning" type="button" (click)='registro()'>Registrate!</button>
-            </form>
+                <button class="w-100 btn btn-lg btn-primary" type="button" (click)='iniciar()'>Iniciar Sesion</button>
+                <button class="w-100 btn btn-lg btn-secondary" type="button" (click)='volverhome()'>Volver</button>
+                <button class="w-100 btn btn-lg btn-warning" type="button" (click)='registro()'>Registrate!</button>
+            </form> -->
         </main>
     </div>
 

@@ -23,3 +23,8 @@ h1{
     justify-content: center;
     
 }
+
+.card{
+    background-color: rgb(82, 80, 80);
+    color: whitesmoke;
+}
