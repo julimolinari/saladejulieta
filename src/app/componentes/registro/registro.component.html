@@ -9,7 +9,7 @@
 </head>
 
 <body class="text-center">
-
+    <app-navbar></app-navbar>
     <div class="card mx-auto" style="width: 18rem; margin-top: 110px;" id="tarjeta">
         <main class="form-signin">
             <form>
@@ -18,17 +18,19 @@
                 <label for="inputEmail" class="visually-hidden">Ingresa tu mail</label>
                 <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email" required
                     autofocus="" [(ngModel)]= "inputEmail" >
-                <label for="inputPassword" class="visually-hidden">Ingresa tu contraseña</label>
-                <input type="password" id="inputPassword" name="inputPassword"  class="form-control" placeholder="Contraseña" required > 
-               
-                <label for="inputPassword" class="visually-hidden">Nombre de Usuario</label>
-                <input type="text" id="inputUsuario" name="inputUsuario"  class="form-control" placeholder="Nombre de Usuario" required > 
 
-                <label for="inputPassword" class="visually-hidden">DNI</label>
-                 <input type="dni" id="inputDNI" name="inputDNI"  class="form-control" placeholder="D.N.I" required >  
+                <label for="inputPass" class="visually-hidden">Ingresa tu contraseña</label>
+                <input type="password" id="inputPass" name="inputPass"  class="form-control" placeholder="Contraseña" required 
+                [(ngModel)]= "inputPass"> 
+               
+                <label for="inputUsuario" class="visually-hidden">Nombre de Usuario</label>
+                <input type="text" id="inputUsuario" name="inputUsuario"  class="form-control" placeholder="Nombre de Usuario" required [(ngModel)]= "inputUsuario"  > 
+
+                <label for="inputDNI" class="visually-hidden">DNI</label>
+                 <input type="text" id="inputDNI" name="inputDNI"  class="form-control" placeholder="D.N.I" required [(ngModel)]= "inputDNI" >  
 
                 <button class="btn btn-lg btn-warning" type="button" (click)='registrate()'>Registrarme</button>
-                <button class="btn btn-lg btn-secondary" type="button" (click)='volverhome()'>Volver</button>
+                <button class="btn btn-lg btn-secondary" type="button" (click)='volverhome()'>Volver</button> 
                 
             </form>
         </main>

@@ -14,6 +14,11 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 import { AngularFireAuth, AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { RegistroComponent } from './componentes/registro/registro.component';
+import { NavbarComponent } from './componentes/navbar/navbar.component';
+import { JuegosComponent } from './componentes/juegos/juegos.component';
+import { ChatComponent } from './componentes/chat/chat.component';
+import { TatetiComponent } from './componentes/tateti/tateti.component';
+import { PiedrapapeltijeraComponent } from './componentes/piedrapapeltijera/piedrapapeltijera.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +26,13 @@ import { RegistroComponent } from './componentes/registro/registro.component';
     LoginComponent,
     HomeComponent,
     QuienSoyComponent,
-    RegistroComponent
+    RegistroComponent,
+    NavbarComponent,
+    JuegosComponent,
+    ChatComponent,
+    TatetiComponent,
+    PiedrapapeltijeraComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -14,6 +14,11 @@ export class AutenticacionService {
 
   }
 
+  public cerrarsesion()  {
+    return this.auten.signOut();
+
+  }
+
   public registrarUsuario(email:string,password:string)  {
     return this.auten.createUserWithEmailAndPassword(email,password);
   }

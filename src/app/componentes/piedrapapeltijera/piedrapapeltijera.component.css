@@ -29,3 +29,15 @@ h1{
     color: whitesmoke;
     box-shadow: 2px;
 }
+
+tr{
+    margin-left: 200px;
+}
+
+.tabla{
+    margin-left: 120px;
+}
+
+.col-6{
+    margin-bottom: 10px;
+}

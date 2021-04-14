@@ -12,53 +12,45 @@
     <app-navbar></app-navbar>
     <div class="container">
         <div class="fondito">
-<br><br>
-            <h1>Bienvenido a la Sala de Juegos!</h1>
+            <br><br>
+            <h1>Sala de Juegos!</h1>
 
             <!-- <button class='btn btn-primary' type="button" (click)='ingresar()'> Ingresar </button>
             <button class='btn btn-primary' type="button" (click)='ingresarquien()'> Quien Soy </button> -->
-
+                <br><br>
             <div class="container">
 
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-sm-3 row-cols-sm-4">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <div _ngcontent-hpq-c34="" (click)='ingresarJuegos()' class="card" tabindex="0"><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/juegos.png" alt="..." width="200" height="200"
-                                    class="card-img-top">
+                            <div _ngcontent-hpq-c34=""  class="card" tabindex="0" [routerLink]="['/piedrapapeltijera']"
+                            ><img
+                                    _ngcontent-hpq-c34="" src="../../../assets/images/piedrapapel.jpg" alt="..." width="200"
+                                    height="200" class="card-img-top">
                                 <div _ngcontent-hpq-c34="" class="card-body">
-                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Juegos</h3>
+                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Piedra, Papel o Tijera</h3>
                                 </div>
-                            </div>
-
-                            <div class="card-body">
-                                <p class="card-text">Encontra los juegos mas divertidos y originales de toda la web. Que
-                                    estas eperando. Divertite!</p>
-
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0"><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/resultados.png" alt="..."
+                            <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0" [routerLink]="['/tateti']">
+                                <img
+                                    _ngcontent-hpq-c34="" src="../../../assets/images/tateti.jpg" alt="..."
                                     class="card-img-top" width="200" height="200">
                                 <div _ngcontent-hpq-c34="" class="card-body">
-                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Resultados</h3>
+                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Ta-Te-Ti</h3>
                                 </div>
                             </div>
-
-                            <div class="card-body">
-                                <p class="card-text">Juga sin preocuparte! Aca vas a encontrar tus resultados historicos, mejora tu marca y no pierdas el ritmo.</p>
-
-                            </div>
+                    
                         </div>
                     </div>
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="card shadow-sm">
                             <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0"><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/config.png" alt="..." width="200" height="200"
-                                    class="card-img-top">
+                                    _ngcontent-hpq-c34="" src="../../../assets/images/config.png" alt="..." width="200"
+                                    height="200" class="card-img-top">
                                 <div _ngcontent-hpq-c34="" class="card-body">
                                     <h3 _ngcontent-hpq-c34="" class="card-title text-center">Ajustes</h3>
                                 </div>
@@ -74,20 +66,21 @@
                     <div class="col">
                         <div class="card shadow-sm">
                             <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0"><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/jugadores (2).png" alt="..." width="200" height="200"
-                                    class="card-img-top">
+                                    _ngcontent-hpq-c34="" src="../../../assets/images/jugadores (2).png" alt="..."
+                                    width="200" height="200" class="card-img-top">
                                 <div _ngcontent-hpq-c34="" class="card-body">
                                     <h3 _ngcontent-hpq-c34="" class="card-title text-center">Jugadores</h3>
                                 </div>
                             </div>
 
                             <div class="card-body">
-                                <p class="card-text">Lista de los mejores jugadores. Mejora tu marca y no pierdas el ritmo, compara resultados ys segui superandote.</p>
+                                <p class="card-text">Lista de los mejores jugadores. Mejora tu marca y no pierdas el
+                                    ritmo, compara resultados ys segui superandote.</p>
 
                             </div>
                         </div>
-                    </div>
-                    
+                    </div> -->
+
 
                 </div>
             </div>
