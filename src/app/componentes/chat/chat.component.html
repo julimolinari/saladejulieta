@@ -1,1 +1,24 @@
-<p>chat works!</p>
+<div class="card">
+    <h5 class="card-header">Chatea con nosotros</h5>
+    <div class="card-body">
+      <!-- <h5 class="card-title">Special title treatment</h5> -->
+     <div *ngFor="let item of listadoMensajes">
+      <ul class="list-group" id="ul">
+        <li class="list-group-item disabled" id="liFecha">{{item.fecha}} - {{item.usuario}}: </li>
+        <li class="list-group-item" id="liUser">{{item.mensaje}}</li>        
+      </ul>
+    </div>
+    </div>
+
+    <footer> 
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" [(ngModel)]="inputMensaje" placeholder="Escribi tu mensaje.."  aria-describedby="basic-addon2">
+            <div class="input-group-append">
+             <a class="btn btn-primary" id="basic-addon2" (click)="enviarMensaje()">Enviar</a>  
+              
+            </div>
+          </div>
+        <!-- <input type="text"  id="mensaje" name="mensaje" placeholder="Escribi tu mensaje.." >
+        <a class="btn btn-primary">Enviar</a>         -->
+    </footer>
+  </div>

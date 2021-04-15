@@ -1,1 +1,52 @@
-<p>tateti works!</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala de Juegos</title>
+</head>
+
+<body>
+    <app-navbar></app-navbar>
+    <div class="container">
+        <div class="fondito">
+            <br><br>
+            <h1>TA - TE - TI</h1>
+
+            <!-- <button class='btn btn-primary' type="button" (click)='ingresar()'> Ingresar </button>
+            <button class='btn btn-primary' type="button" (click)='ingresarquien()'> Quien Soy </button> -->
+            <br><br>
+            <div class="general">
+            <div class="flexTabla">
+                <div style="text-align: center">
+                    <button type="button" (click)="presion(0,0)" class="btn btn-light casilla">{{posiciones[0][0]}}</button>
+                    <button type="button" (click)="presion(0,1)" class="btn btn-light casilla">{{posiciones[0][1]}}</button>
+                    <button type="button" (click)="presion(0,2)" class="btn btn-light casilla">{{posiciones[0][2]}}</button>
+                    <br>
+                    <button type="button" (click)="presion(1,0)" class="btn btn-light casilla">{{posiciones[1][0]}}</button>
+                    <button type="button" (click)="presion(1,1)" class="btn btn-light casilla">{{posiciones[1][1]}}</button>
+                    <button type="button" (click)="presion(1,2)" class="btn btn-light casilla">{{posiciones[1][2]}}</button>
+                    <br>
+                    <button type="button" (click)="presion(2,0)" class="btn btn-light casilla">{{posiciones[2][0]}}</button>
+                    <button type="button" (click)="presion(2,1)" class="btn btn-light casilla">{{posiciones[2][1]}}</button>
+                    <button type="button" (click)="presion(2,2)" class="btn btn-light casilla">{{posiciones[2][2]}}</button>
+                  </div>
+                  <div style="text-align: center">
+                    <button class="btn btn-primary" color="primary" (click)="reiniciar()">Reiniciar</button>
+                  </div>
+
+            </div>
+            <div class="chat" width="60">
+                <app-chat></app-chat>              
+                
+
+            </div>
+            
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>

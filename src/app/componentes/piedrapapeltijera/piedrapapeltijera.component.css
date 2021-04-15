@@ -38,20 +38,27 @@ p{
     box-shadow: 2px;
 }
 
-tr{
+/* tr{
     margin-left: 200px;
 }
 
 .tabla{
     margin-left: 120px;
-}
+} */
 
-.col-6{
+.tabla{
     margin-bottom: 10px;
+    align-content: space-around;
 }
-
 
 .imagen:hover{
     
     transform: scale(1.1);
 }
+
+.general{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+

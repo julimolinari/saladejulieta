@@ -1,0 +1,22 @@
+.card{
+    max-height: 400px;
+    overflow-y: auto;
+    max-width: 500px;
+   
+}
+
+.card-body{
+    background-color: rgb(180, 180, 180);
+}
+
+#liFecha{
+
+    font-size: 12px;
+}
+/* #liUser{
+    
+} */
+
+.list-group{
+    margin-bottom: 15px;
+}

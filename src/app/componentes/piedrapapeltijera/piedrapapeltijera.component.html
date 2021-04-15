@@ -17,147 +17,51 @@
 
             <!-- <button class='btn btn-primary' type="button" (click)='ingresar()'> Ingresar </button>
             <button class='btn btn-primary' type="button" (click)='ingresarquien()'> Quien Soy </button> -->
-                <br><br>
-                
-                <div class="tabla row" >
-                    
-                    <div class="col-6 col-md-4">
-                        <p>ELEGI TU OPCION</p>
-                        <img class="imagen"
-                        _ngcontent-hpq-c34="" value="piedra" (click)="jugar('piedra')"  src="../../../assets/images/piedra.jpg" alt="..." width="150"
-                        height="110" ></div>
-                    <div class="col-6 col-md-4">
+            <br><br>
+            <div class="general">
+            <div class="flexTabla">
+
+
+                <div class="tabla row">
+
+                    <div class="col-md-6">
+                        <p>TU OPCION!!</p>
+                        <img class="imagen" _ngcontent-hpq-c34="" value="piedra" (click)="jugar('piedra')"
+                            src="../../../assets/images/piedra.jpg" alt="..." width="150" height="110">
+                    </div>
+                    <div class="col-md-6">
                         <p>PC OPONENTE</p>
-                        <img
-                        _ngcontent-hpq-c34="" src="../../../assets/images/piedra2.jpg" alt="..." width="150"
-                        height="110" ></div>
-                    <div class="col-6 col-md-4"></div>
-                  </div>
-                  <div class="tabla row">
-                    <div class="col-6 col-md-4">
-                        <img class="imagen"
-                        _ngcontent-hpq-c34="" value="papel" (click)="jugar('papel')"src="../../../assets/images/papel.jpg" alt="..." width="150"
-                        height="110" ></div>
-                    <div class="col-6 col-md-4"><img 
-                        _ngcontent-hpq-c34="" src="../../../assets/images/papel2.jpg" alt="..." width="150"
-                        height="110" ></div>
-                    <div class="col-6 col-md-4"></div>
-                  </div>
-                  <div class="tabla row">
-                    <div class="col-6 col-md-4"><img class="imagen"
-                        _ngcontent-hpq-c34="" value="tijera" (click)="jugar('tijera')"src="../../../assets/images/tijera.jpg" alt="..." width="150"
-                        height="110" ></div>
-                    <div class="col-6 col-md-4"><img
-                        _ngcontent-hpq-c34="" src="../../../assets/images/tijera2.jpg" alt="..." width="150"
-                        height="110" ></div>
-                    <div class="col-6 col-md-4"></div>
-                  </div>
-
-                <!-- <table>
-                    <td>
-
-                        <tr class="v-line">
-                            <img
-                            _ngcontent-hpq-c34="" src="../../../assets/images/piedra.jpg" alt="..." width="150"
-                            height="110" class="card-img-top">
-                        </tr>
-                        <tr class="v-line">
-                            <img
-                            _ngcontent-hpq-c34="" src="../../../assets/images/papel.jpg" alt="..." width="150"
-                            height="110" class="card-img-top">
-                        </tr>
-                        <tr>
-                            <img
-                            _ngcontent-hpq-c34="" src="../../../assets/images/tijera.jpg" alt="..." width="150"
-                            height="110" class="card-img-top">
-                        </tr>
-                    </td>
-                    <td></td>
-                    <td>
-
-                        <tr class="v-line">
-                            <img
-                            _ngcontent-hpq-c34="" src="../../../assets/images/piedra2.jpg" alt="..." width="150"
-                            height="110" class="card-img-top">
-                        </tr>
-                        <tr class="v-line">
-                            <img
-                            _ngcontent-hpq-c34="" src="../../../assets/images/papel2.jpg" alt="..." width="150"
-                            height="110" class="card-img-top">
-                        </tr>
-                        <tr>
-                            <img
-                            _ngcontent-hpq-c34="" src="../../../assets/images/tijera2.jpg" alt="..." width="150"
-                            height="110" class="card-img-top">
-                        </tr>
-                    </td>
-                </table> -->
-            <!-- <div class="container">
-
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-sm-3 row-cols-sm-4">
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div _ngcontent-hpq-c34=""  class="card" tabindex="0" [routerLink]="['/piedrapapeltijera']"
-                            ><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/piedrapapel.jpg" alt="..." width="200"
-                                    height="200" class="card-img-top">
-                                <div _ngcontent-hpq-c34="" class="card-body">
-                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Piedra, Papel o Tijera</h3>
-                                </div>
-                            </div>
-                        </div>
+                        <img _ngcontent-hpq-c34="" src="../../../assets/images/piedra2.jpg" alt="..." width="150"
+                            height="110">
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0" [routerLink]="['/tateti']">
-                                <img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/tateti.jpg" alt="..."
-                                    class="card-img-top" width="200" height="200">
-                                <div _ngcontent-hpq-c34="" class="card-body">
-                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Ta-Te-Ti</h3>
-                                </div>
-                            </div>
-                    
-                        </div>
-                    </div> -->
-                    <!-- <div class="col">
-                        <div class="card shadow-sm">
-                            <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0"><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/config.png" alt="..." width="200"
-                                    height="200" class="card-img-top">
-                                <div _ngcontent-hpq-c34="" class="card-body">
-                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Ajustes</h3>
-                                </div>
-                            </div>
-
-                            <div class="card-body">
-                                <p class="card-text">Aca econtraras los ajuste para inciciar sesion o registrarte, no
-                                    sigas eperando para empezar a marcar records.</p>
-
-                            </div>
-                        </div>
+                    <!-- <td class="col-md-6" rowspan="3"> </td> -->
+                </div>
+                <div class="tabla row">
+                    <div class="col-md-6">
+                        <img class="imagen" _ngcontent-hpq-c34="" value="papel" (click)="jugar('papel')"
+                            src="../../../assets/images/papel.jpg" alt="..." width="150" height="110">
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <div _ngcontent-hpq-c34="" routerlink="/Listado" class="card" tabindex="0"><img
-                                    _ngcontent-hpq-c34="" src="../../../assets/images/jugadores (2).png" alt="..."
-                                    width="200" height="200" class="card-img-top">
-                                <div _ngcontent-hpq-c34="" class="card-body">
-                                    <h3 _ngcontent-hpq-c34="" class="card-title text-center">Jugadores</h3>
-                                </div>
-                            </div>
+                    <div class="col-md-6"><img _ngcontent-hpq-c34="" src="../../../assets/images/papel2.jpg"
+                            alt="..." width="150" height="110"></div>
+                    <!-- <td class="col-md-6"></td> -->
+                </div>
+                <div class="tabla row">
+                    <div class="col-md-6"><img class="imagen" _ngcontent-hpq-c34="" value="tijera"
+                            (click)="jugar('tijera')" src="../../../assets/images/tijera.jpg" alt="..." width="150"
+                            height="110"></div>
+                    <div class="col-md-6"><img _ngcontent-hpq-c34="" src="../../../assets/images/tijera2.jpg"
+                            alt="..." width="150" height="110"></div>
+                    <!-- <td class="col-md-6"></td> -->
+                </div>
 
-                            <div class="card-body">
-                                <p class="card-text">Lista de los mejores jugadores. Mejora tu marca y no pierdas el
-                                    ritmo, compara resultados ys segui superandote.</p>
+            </div>
+            <div class="chat" width="60">
+                <app-chat></app-chat>              
+                
 
-                            </div>
-                        </div>
-                    </div> -->
-
-
-                <!-- </div>
-            </div> -->
+            </div>
+            
+        </div>
         </div>
     </div>
 </body>

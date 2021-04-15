@@ -1,0 +1,70 @@
+@font-face { font-family: ARCADE_N; src: url('../../../assets/fonts/ARCADE_N.TTF'); } 
+
+body{
+    /* background-image: "../../../assets/images/fondo.jpg"; */
+    background: url("../../../assets/images/fondo.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 21px;
+    font-family: ARCADE_N;
+    
+}
+
+p{
+    color: whitesmoke;
+    padding-top: 11px;
+    font-family: ARCADE_N;
+    
+}
+
+
+.btn{
+
+    justify-content: center;
+    
+}
+
+.card{
+    background-color: rgb(82, 80, 80);
+    color: whitesmoke;
+    box-shadow: 2px;
+}
+
+/* tr{
+    margin-left: 200px;
+}
+
+.tabla{
+    margin-left: 120px;
+} */
+
+.tabla{
+    margin-bottom: 10px;
+    align-content: space-around;
+}
+
+.imagen:hover{
+    
+    transform: scale(1.1);
+}
+
+.general{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.casilla {
+    height: 5rem;
+    width: 5rem;
+    margin: 0.5rem;
+    font-size: 3rem;
+}
