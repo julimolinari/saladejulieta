@@ -18,6 +18,14 @@ h1{
     
 }
 
+p{
+    color: whitesmoke;
+    padding-top: 11px;
+    font-family: ARCADE_N;
+    
+}
+
+
 .btn{
 
     justify-content: center;
@@ -40,4 +48,10 @@ tr{
 
 .col-6{
     margin-bottom: 10px;
+}
+
+
+.imagen:hover{
+    
+    transform: scale(1.1);
 }
