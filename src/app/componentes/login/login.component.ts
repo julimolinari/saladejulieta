@@ -36,6 +36,16 @@ export class LoginComponent implements OnInit {
     })
   }
 
+  public ingresoRapido(user:string){
+    if(user == 'admin'){
+      this.inputEmail= 'admin@admin.com';
+      this.inputPass='admin123';
+    }else if(user=='test'){
+      this.inputEmail= 'test@test.com';
+      this.inputPass='test123';
+    }
+  }
+
   constructor(private router : Router,private servicioAut : AutenticacionService) { }
 
   ngOnInit(): void {

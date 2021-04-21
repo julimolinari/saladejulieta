@@ -20,3 +20,13 @@
 .list-group{
     margin-bottom: 15px;
 }
+
+#ul_user{
+    background-color: lightseagreen !important;
+    margin-left: 50%;
+}
+
+#ul_otros{
+   
+    margin-right: 50%;
+}
