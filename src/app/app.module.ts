@@ -15,7 +15,6 @@ import { AngularFireAuth, AngularFireAuthModule } from '@angular/fire/auth';
 import { environment } from '../environments/environment';
 import { RegistroComponent } from './componentes/registro/registro.component';
 
-import { JuegosComponent } from './componentes/juegos/juegos.component';
 import { SharedModuleModule } from './shared-module/shared-module.module';
 
 // import { TatetiComponent } from './componentes/tateti/tateti.component';
@@ -43,8 +42,7 @@ import { SharedModuleModule } from './shared-module/shared-module.module';
     LoginComponent,
     HomeComponent,
     QuienSoyComponent,
-    RegistroComponent,
-    JuegosComponent,
+    RegistroComponent
  
     // TatetiComponent,
     // PiedrapapeltijeraComponent,    

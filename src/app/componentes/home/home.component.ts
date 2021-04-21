@@ -27,7 +27,7 @@ usuario : string = '';
 
   public ingresarJuegos(){
     if(this.usuario != null){
-      this.router.navigate(['/juegos']);
+      this.router.navigate(['/menu/juegos']);
     }else{
 
       this.router.navigate(['/login']);

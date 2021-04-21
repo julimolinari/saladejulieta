@@ -2,11 +2,15 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { TatetiComponent } from './pages/tateti/tateti.component';
 import { PiedrapapeltijeraComponent } from './pages/piedrapapeltijera/piedrapapeltijera.component';
+import { MenuJuegosComponent } from './menu-juegos.component';
+import { JuegosComponent } from './pages/juegos/juegos.component';
 
 
 
 
 const routes: Routes = [
+  
+  { path: 'juegos', component: JuegosComponent },
   { path: 'piedrapapeltijera', component: PiedrapapeltijeraComponent },
   { path: 'tateti', component: TatetiComponent }
 ];

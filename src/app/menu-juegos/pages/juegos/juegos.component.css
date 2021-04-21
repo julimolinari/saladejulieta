@@ -1,8 +1,8 @@
-@font-face { font-family: ARCADE_N; src: url('../../../assets/fonts/ARCADE_N.TTF'); } 
+@font-face { font-family: ARCADE_N; src: url('../../../../assets/fonts/ARCADE_N.TTF'); } 
 
 body{
     /* background-image: "../../../assets/images/fondo.jpg"; */
-    background: url("../../../assets/images/fondo.png");
+    background: url("../../../../assets/images/fondo.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
