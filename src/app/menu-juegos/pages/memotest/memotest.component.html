@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sala de Juegos</title>
+</head>
+
+<body>
+    <app-navbar></app-navbar>
+
+    <div class="container">
+        <div class="fondito">
+            <br><br>
+            <h1>Memotest</h1>
+            
+            <div class="general">
+              
+                <div class="flexTabla">
+
+                    <div *ngFor="let item of listaAuxiliar" class="divImg" (click)="darVuelta(item)" >
+                        
+                        <img class="imagen" [src]="item.tapa" alt="..."  width="160" height="90"   style="object-fit: cover; margin: 8px 0px;" >
+                        
+                    </div>
+                </div>
+                <div class="chat" width="60">
+                    <app-chat></app-chat>
+
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

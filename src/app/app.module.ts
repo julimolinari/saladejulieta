@@ -16,7 +16,7 @@ import { environment } from '../environments/environment';
 import { RegistroComponent } from './componentes/registro/registro.component';
 
 import { SharedModuleModule } from './shared-module/shared-module.module';
-
+import { HttpClientModule } from '@angular/common/http';
 // import { TatetiComponent } from './componentes/tateti/tateti.component';
 // import { PiedrapapeltijeraComponent } from './componentes/piedrapapeltijera/piedrapapeltijera.component';
 
@@ -31,7 +31,8 @@ import { SharedModuleModule } from './shared-module/shared-module.module';
     AngularFireDatabaseModule,
     AngularFireStorageModule,
     AngularFireAuthModule,
-    SharedModuleModule
+    SharedModuleModule,
+    HttpClientModule
   ],
   exports: [
  

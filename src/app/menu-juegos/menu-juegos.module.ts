@@ -7,6 +7,7 @@ import { MenuJuegosComponent } from './menu-juegos.component';
 import { TatetiComponent } from './pages/tateti/tateti.component';
 import { PiedrapapeltijeraComponent } from './pages/piedrapapeltijera/piedrapapeltijera.component';
 import { JuegosComponent } from './pages/juegos/juegos.component';
+import { MemotestComponent } from './pages/memotest/memotest.component';
 
 
 
@@ -22,7 +23,8 @@ import { JuegosComponent } from './pages/juegos/juegos.component';
     MenuJuegosComponent,
     TatetiComponent,
     PiedrapapeltijeraComponent,
-    JuegosComponent
+    JuegosComponent,
+    MemotestComponent
    
   ]
 })
