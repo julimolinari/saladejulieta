@@ -1,0 +1,38 @@
+.container {
+    max-width: 600px;
+    padding: 60px;
+    background-color: whitesmoke;
+
+    /* SHADOW */
+    -webkit-box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 31px -5px rgba(0,0,0,0.75);
+}
+
+.formulario div[class^="col-md-"] {
+    height: 90px;
+}
+
+.invalid {
+    color: red;
+}
+
+@font-face { font-family: ARCADE_N; src: url('../../../assets/fonts/ARCADE_N.TTF'); } 
+
+body{
+    /* background-image: "../../../assets/images/fondo.jpg"; */
+    background: url("../../../assets/images/fondo.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: cover;
+    /* height: 100vh; */
+}
+
+
+h1{
+    color: rgb(41, 40, 40);
+    text-align: center;
+    padding-top: 21px;
+    font-family: ARCADE_N;
+    
+}

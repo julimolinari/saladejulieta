@@ -17,6 +17,7 @@ import { RegistroComponent } from './componentes/registro/registro.component';
 
 import { SharedModuleModule } from './shared-module/shared-module.module';
 import { HttpClientModule } from '@angular/common/http';
+import { EncuestaComponent } from './componentes/encuesta/encuesta.component';
 // import { TatetiComponent } from './componentes/tateti/tateti.component';
 // import { PiedrapapeltijeraComponent } from './componentes/piedrapapeltijera/piedrapapeltijera.component';
 
@@ -43,7 +44,8 @@ import { HttpClientModule } from '@angular/common/http';
     LoginComponent,
     HomeComponent,
     QuienSoyComponent,
-    RegistroComponent
+    RegistroComponent,
+    EncuestaComponent
  
     // TatetiComponent,
     // PiedrapapeltijeraComponent,    

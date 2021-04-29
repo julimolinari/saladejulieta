@@ -5,6 +5,7 @@ import { LoginComponent } from './componentes/login/login.component';
 import { RegistroComponent } from './componentes/registro/registro.component';
 import { QuienSoyComponent } from './componentes/quien-soy/quien-soy.component';
 import { MiGuardGuard } from './guard/mi-guard.guard';
+import { EncuestaComponent } from './componentes/encuesta/encuesta.component';
 
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
     canActivate: [MiGuardGuard]},
   { path: '', component: HomeComponent },
   { path: 'sharedModule', loadChildren: () => import('./shared-module/shared-module.module').then(m => m.SharedModuleModule) },
+  { path: 'encuesta', component: EncuestaComponent,canActivate: [MiGuardGuard] },
   { path: '**', component: HomeComponent }
 
 ];

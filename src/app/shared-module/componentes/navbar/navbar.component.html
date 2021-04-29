@@ -16,8 +16,11 @@
             <a class="nav-link active" [routerLink]="['/quiensoy']" aria-current="page">Quien Soy</a>
           </li>
           <li *ngIf="usuarioActivo != ''" class="nav-item">
-            <button class="btn btn-outline-dark nav-link active" (click)="cerrarSesion()" aria-current="page">Salir</button>
+            <button class="btn btn-outline-dark nav-link active" [routerLink]="['/encuesta']" aria-current="page">Danos tu Opinión</button>
           </li>    
+          <li *ngIf="usuarioActivo != ''" class="nav-item">
+            <button class="btn btn-outline-dark nav-link active" (click)="cerrarSesion()" aria-current="page">Salir</button>
+          </li>  
               
          
         </ul>
