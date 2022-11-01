@@ -9,7 +9,7 @@ export class PaisesService {
   constructor(private httpClient:HttpClient) { }
 
   public obtenerImagenes(){
-   return this.httpClient.get('https://restcountries.eu/rest/v2/regionalbloc/usan');
+   return this.httpClient.get('https://restcountries.com/v2/regionalbloc/usan');
   }
   
 }
